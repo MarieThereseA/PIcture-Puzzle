@@ -1,0 +1,93 @@
+/* https://www.usatoday.com/story/entertainment/tv/2020/09/11/girlfriends-tracee-ellis-ross-cast-talk-anniversary-legacy-netflix/5745283002/
+*/
+/*https://www.imgonline.com.ua/eng/cut-photo-into-pieces.php */
+/*CSS*/
+body{
+    font-family: Satisfy, handwriting;
+    background-image: url("Girlfriends-opening.png");
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 10px auto -10px auto;
+    color: rgb(144, 104, 181);
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+
+.solve{
+    display: block;
+    margin: 2px auto;
+    font-size: 20px;
+
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+}
+
+.puzzle{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 2px;
+
+    justify-content: center;
+    align-content: center;
+    margin: 10px auto auto auto;
+
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(63, 96, 124);
+}
+
+.piece{
+    grid-area: auto / auto / span 1 / span 1;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 0px;
+    padding: 0px;
+}
+
+/*
+button.hover{
+   
+}
+*/
+
+img{
+    width:200px;
+}
+
+.alert{
+    position: absolute;
+    background-color: rgb(232, 175, 222);
+    margin:auto;
+    width: 20%;
+    top:58%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    font-size: 25px;
+
+    border: 3px solid rgb(144, 104, 181);
+    border-radius: 20px;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+.alertBtn{
+    font-size: 20px;
+
+    margin-top: 10px;
+
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
